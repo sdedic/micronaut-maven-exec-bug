@@ -1,3 +1,7 @@
+# This repository is intended **only for purposes of testing Micronaut issue #5520**. It does not anything useful except the bug reproduction.
+
+Since the issue was already fixed on 1st March 2021, the repository archived/deleted on 1 May 2021.
+
 ## Micronaut 2.3.3 Documentation
 
 - [User Guide](https://docs.micronaut.io/2.3.3/guide/index.html)
