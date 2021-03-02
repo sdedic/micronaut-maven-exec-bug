@@ -20,7 +20,17 @@
     <micronaut.version>2.3.3</micronaut.version>
     <exec.mainClass>com.example.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
+    <mn.appArgs>first secondStart,secondPart</mn.appArgs>
   </properties>
+  
+  <profiles>
+      <profile>
+          <id>debug</id>
+          <properties>
+              <mn.jvmArgs>-agentlib:jdwp=transport=dt_socket,server=n,address=5005</mn.jvmArgs>
+          </properties>
+      </profile>
+  </profiles>
 
   <repositories>
     <repository>
